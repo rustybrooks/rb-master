@@ -3,10 +3,6 @@
         "service-type": "cluster",
         "description": "ECS cluster for OTXP"
     },
-    "contract-tests": {
-        "service-type": "contract-tests",
-        "description": "OTXP contract tests"
-    },
     "flannelcat-api": {
         "service-type": "api-service",
         "description": "OTXP web api server"

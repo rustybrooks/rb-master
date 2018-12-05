@@ -1,0 +1,8 @@
+app-{{cookiecutter.project_slug}}-test:
+  image: otx/{{cookiecutter.project_slug}}-test:latest
+  container_name: {{cookiecutter.project_slug}}-test-unit-test
+  environment:
+    - ENVIRONMENT=UNIT_TEST
+    - TEST_OUTPUT_TARGET=/output/
+  volumes:
+      - $TEST_OUTPUT:/output/
