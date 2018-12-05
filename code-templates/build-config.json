@@ -1,0 +1,38 @@
+{
+  "provider": "build_system_provider",
+  "url": "build_system_url",
+  "user":"build_system_user",
+  "password":"build_system_password",
+  "build-templates": {
+    "base-container": {
+      "type": "infrastructure"
+    },
+    "pylib": {
+      "type": "infrastructure"
+    },
+    "vpc": {
+      "type": "infrastructure"
+    },
+    "mongo": {
+      "type": "infrastructure"
+    },
+    "contract-tests": {
+      "type": "library"
+    },
+    "cluster": {
+      "type": "library"
+    },
+    "api-service": {
+      "type": "container"
+    },
+    "default-service": {
+      "type": "container"
+    },
+    "batch-service": {
+      "type": "container"
+    },
+    "listener": {
+      "type": "container"
+    }
+  }
+}

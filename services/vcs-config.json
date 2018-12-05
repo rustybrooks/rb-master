@@ -1,0 +1,6 @@
+{
+  "provider": "vcs_provider",
+  "root-user":"vcs_root_user",
+  "user":"vcs_user",
+  "password":"vcs_password"
+}

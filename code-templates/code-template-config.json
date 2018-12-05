@@ -1,0 +1,21 @@
+{
+  "provider":"cookiecutter",
+  "code-template-definitions": {
+    "base-container": {
+      "type": "github",
+      "location": "https://github.com/AlienVault-Engineering/code-template-pylib"
+    },
+    "vpc": {
+      "type": "github",
+      "location": "https://github.com/AlienVault-Engineering/code-template-pylib"
+    },
+    "contract-tests": {
+      "type": "github",
+      "location": "https://github.com/AlienVault-Engineering/code-template-pylib"
+    },
+    "cluster": {
+      "type": "github",
+      "location": "https://github.com/AlienVault-Engineering/code-template-pylib"
+    }
+  }
+}
