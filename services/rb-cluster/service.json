@@ -6,9 +6,5 @@
     "flannelcat-api": {
         "service-type": "api-service",
         "description": "OTXP web api server"
-    },
-    "flannelcat-worker": {
-        "service-type": "listener",
-        "description": "Background queue processor for flannelcat"
     }
 }

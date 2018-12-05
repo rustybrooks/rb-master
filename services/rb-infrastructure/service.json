@@ -1,8 +1,4 @@
 {
-    "contract-tests": {
-        "service-type": "contract-tests",
-        "description": ""
-    },
     "vpc": {
         "service-type": "vpc",
         "description": "Core VPC used to host ECS clusters and microservices.  Will establish 3 private and 3 public subnets as well as a bastion host for access."
